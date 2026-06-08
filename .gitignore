@@ -1,0 +1,34 @@
+# ---- Node ----
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# ---- Circuit build artifacts ----
+build/
+*.r1cs
+*.wasm
+*.sym
+*.zkey
+*.ptau
+*.wtns
+witness.wtns
+proof.json
+public.json
+verification_key.json
+# generated circom witness folders
+*_js/
+
+# ---- Foundry / Solidity ----
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+
+# ---- Secrets & local config ----
+.env
+.env.local
+
+# ---- Editor / OS ----
+.DS_Store
+.idea/
+.vscode/
+*.log
