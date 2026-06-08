@@ -1,5 +1,7 @@
 # ZK-DRAIN-LAB
 
+![CI](https://github.com/loxlid/zk-drain-lab/actions/workflows/ci.yml/badge.svg) ![Circom](https://img.shields.io/badge/Circom-2.1.9-1f6feb) ![Solidity](https://img.shields.io/badge/Solidity-0.8.20-363636?logo=solidity&logoColor=white) ![Foundry](https://img.shields.io/badge/Foundry-tested-success) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+
 A **Damn-Vulnerable-DeFi-style lab — but for zero-knowledge bugs.** It ships a Tornado-style privacy pool that is *deliberately broken* in a single, devastating way, alongside the fixed version and a Foundry exploit that drains the broken pool to zero. The goal is to teach, in runnable code, the most common class of ZK-mixer vulnerability: **nullifier reuse / double-spend**.
 
 > 🧪 **Educational security research.** Every contract and exploit here targets *this repo's own* code. The vulnerable contract is intentionally wrong. See the **DISCLAIMER** at the bottom — never deploy these to a network holding real value.
